@@ -75,7 +75,6 @@ class backTracking{
             if(arr[i][j]=='Q')
                 return false;
         }
-
         return true;
     }
     public void helper_queen(int totalNoOfQueen,List<List<String>>ans, char [][]arr, int row)
